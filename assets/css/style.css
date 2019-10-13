@@ -12,11 +12,21 @@ body {
 .instructions {
     width: 30%;
     height: 350px;
-    /* border: 2px solid black; */
     font-size: 33px;
     padding-top: 30px;
-    /* background-image: url(../images/spyro-background.jpg);
-    background-size: cover; */
+    margin-left: 10px;
+}
+
+#goalNumber {
+    font-size: 33px;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+#winsLosses {
+    font-size: 33px;
+    padding-top: 30px;
+    margin-left: 10px;
 }
 
 
@@ -24,4 +34,11 @@ body {
     width: 90px;
     height: 100px;
     margin: 10px;
+}
+
+#gemTotal {
+    font-size: 33px;
+    padding-top: 30px;
+    margin-left: 10px;
+    color: gold;
 }

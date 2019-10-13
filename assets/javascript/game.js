@@ -56,9 +56,9 @@ function loser() {
 $("#gem1").on("click", function(){
     userNum = userNum + gem1;
     $("#gemTotal").html("You collected: " + userNum);
-    if (gemTotal === computerNum){
+    if (userNum === computerNum){
         winner();
-    }else if(gemTotal > computerNum){
+    }else if(userNum > computerNum){
         loser();
     }
 
@@ -67,9 +67,9 @@ $("#gem1").on("click", function(){
 $("#gem2").on("click", function(){
     userNum = userNum + gem2;
     $("#gemTotal").html("You collected: " + userNum);
-    if (gemTotal === computerNum){
+    if (userNum === computerNum){
         winner();
-    }else if(gemTotal > computerNum){
+    }else if(userNum > computerNum){
         loser();
     }
 
@@ -78,9 +78,9 @@ $("#gem2").on("click", function(){
 $("#gem3").on("click", function(){
     userNum = userNum + gem3;
     $("#gemTotal").html("You collected: " + userNum);
-    if (gemTotal === computerNum){
+    if (userNum === computerNum){
         winner();
-    }else if(gemTotal > computerNum){
+    }else if(userNum > computerNum){
         loser();
     }
 
@@ -89,9 +89,9 @@ $("#gem3").on("click", function(){
 $("#egg1").on("click", function(){
     userNum = userNum + egg;
     $("#gemTotal").html("You collected: " + userNum);
-    if (gemTotal === computerNum){
+    if (userNum === computerNum){
         winner();
-    }else if(gemTotal > computerNum){
+    }else if(userNum > computerNum){
         loser();
     }
 
